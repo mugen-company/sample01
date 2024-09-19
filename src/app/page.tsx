@@ -6,9 +6,10 @@ import Footer from "../../component/Fotter";
 import Head from "../../component/Head";
 import ImageSlider from "../../component/ImageSlider";
 import MarqueeText from "../../component/MarqueeText";
+import MiddleContents from "../../component/MiddleContents";
 
 export default function Home() {
-  const images = ["https://github.com/mugen-company/sample01/blob/main/public/images/kv_1.jpg?raw=true", "https://github.com/mugen-company/sample01/blob/main/public/images/kv_3.jpg?raw=true"]; // スライドショー用の画像パス
+  const images = ["../../images/kv_1.jpg", "../../images/kv_3.jpg"]; // スライドショー用の画像パス
 
   const [isClient, setIsClient] = useState(false);
 
@@ -28,6 +29,7 @@ export default function Home() {
       </main>
       <ImageSlider images={images} />
       <MarqueeText />
+      <MiddleContents />
       <Footer />
     </div>
   );

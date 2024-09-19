@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion';
 import React, { CSSProperties, useEffect, useState } from "react";
 import '../component/ThemeToggle';
-import ThemeToggle from '../component/ThemeToggle';
+// import ThemeToggle from '../component/ThemeToggle';
 import AnimatedLink from './AnimatedLink';
 export default function Head() {
   const [isVisible, setIsVisible] = useState(true);
@@ -50,7 +50,7 @@ export default function Head() {
         <AnimatedLink href="/about">リコリス歯科について /</AnimatedLink>
         <AnimatedLink href="/contact">お問合せ /</AnimatedLink>
         <AnimatedLink href="/news">お知らせ</AnimatedLink>
-        <ThemeToggle />
+        {/* <ThemeToggle /> */}
       </ul>
     
     <motion.h1 style={headStyleh1} 

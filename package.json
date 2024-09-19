@@ -24,6 +24,8 @@
     "eslint": "^8",
     "eslint-config-next": "14.2.9",
     "gh-pages": "^6.1.1",
+    "glsl-loader": "^0.0.1",
+    "glslify": "^7.1.1",
     "postcss": "^8",
     "tailwindcss": "^3.4.1",
     "typescript": "^5"
